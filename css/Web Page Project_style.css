@@ -1,0 +1,77 @@
+body { 
+ background-image: url(../img/PUBG2.jpg); 
+ background-size: 150%; 
+ } 
+   .menuUl { 
+ list-style-type: none; 
+ opacity: 0.5; 
+ margin: 0; 
+ padding: 0; 
+ overflow: hidden; 
+ background-color:black; 
+ font-size: 30px; 
+ } 
+   .menuLi { 
+ float: left; 
+ } 
+   .active { 
+ display: block; 
+ color: darkred; 
+ text-align: center; 
+ padding: 14px 16px; 
+ text-decoration: none; 
+ } 
+
+   .paragraph { 
+ font-family: "bradley hand itc"; 
+ font-size: 30px; 
+ font-weight: 600; 
+ color: red; 
+ } 
+   .header { 
+ text-align: center; 
+ color: #8B0000; 
+ font-family: "Times New Roman"; 
+ font-size: 80px; 
+ } 
+   .image { 
+ height: 500px; 
+ width: 600px; 
+ float: right; 
+ } 
+   .position { 
+ width: 33%; 
+ margin: 0 auto; 
+ font-size: 25px; 
+ font-family: "Times New Roman"; 
+ } 
+   .picture { 
+ display: block; 
+ margin: 0 auto; 
+ } 
+   .center { 
+ text-align: center; 
+ } 
+   .right{ 
+ float:right;  
+ } 
+   .button { 
+ padding: 15px 25px; 
+ font-size: 24px; 
+ text-align: center; 
+ cursor: pointer; 
+ outline: none; 
+ color: red; 
+ background-color: darkviolet; 
+ border: none; 
+ border-radius: 15px; 
+ box-shadow: 0 9px #999; 
+ } 
+   .button:hover { 
+ background-color: red; 
+ } 
+   .button:active { 
+ background-color: gray; 
+ box-shadow: 0 5px #666; 
+ transform: translateY(4px); 
+ } 
